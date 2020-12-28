@@ -1,0 +1,12 @@
+development:
+  password: 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
+  theme_id: "117256487080"
+  store: autodeploy.myshopify.com
+staging:
+  password: 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
+  theme_id: "117256454312"
+  store: autodeploy.myshopify.com
+production:
+  password: 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
+  theme_id: "117256323240"
+  store: autodeploy.myshopify.com
