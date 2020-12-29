@@ -1,12 +1,12 @@
 development:
-  password: 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
-  theme_id: "117256487080"
-  store: autodeploy.myshopify.com
+  password: ${DEV_SHOPIFY_PASSWORD}
+  theme_id: "${DEV_SHOPIFY_THEME_ID}"
+  store: ${DEV_SHOPIFY_STORE_URL}
 staging:
-  password: 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
-  theme_id: "117256454312"
-  store: autodeploy.myshopify.com
+  password: ${SHOPIFY_PASSWORD}
+  theme_id: "${SHOPIFY_THEME_ID}"
+  store: ${SHOPIFY_STORE_URL}
 production:
-  password: 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
-  theme_id: "117256323240"
-  store: autodeploy.myshopify.com
+  password: ${SHOPIFY_PASSWORD}
+  theme_id: "${SHOPIFY_THEME_ID}"
+  store: ${SHOPIFY_STORE_URL}
