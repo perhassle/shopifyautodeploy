@@ -18,7 +18,6 @@ jobs:
     environment: 
       name: Production
       url: https://autodeploy.myshopify.com/
-    
       
     name: Deploy to Shopify
     # The type of runner that the job will run on
@@ -28,11 +27,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
- -      name: Use GitVersion
-        id: gitversion # step id used as reference for output values
-        uses: gittools/actions/gitversion/execute@v0.9.3
-
       - name: Shopify
         uses: pgrimaud/action-shopify@master
         env:
