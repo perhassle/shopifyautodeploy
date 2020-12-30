@@ -1,5 +1,5 @@
 # This is a basic workflow to help you get started with Actions
-name: shopify-ci-production
+name: shopify-ci-staging
 
 # Controls when the action will run. 
 on:
@@ -7,14 +7,8 @@ on:
   on:
   push:
     branches:
-      #- develop
       - release/**
       - hotfix/**
-  pull_request:
-    branches:
-      #- develop
-      #- master
-  
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
